@@ -1,0 +1,16 @@
+.breadcrumbs li {
+  display: inline;
+  padding: 5px;
+}
+
+.breadcrumb li::before {
+  content: ">";
+}
+
+.breadcrumb li:hover {
+  cursor: pointer;
+}
+
+.breadcrumb li:active {
+  color: #5F5799;
+}
